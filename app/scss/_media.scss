@@ -1,0 +1,418 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header {
+        &__info {
+            padding-top: 40px;
+        }
+
+        &__logo {
+            margin-bottom: 20px;
+        }
+
+        &__title {
+            font-size: 32px;
+            line-height: 40px;
+        }
+
+        &__text {
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 20px;
+        }
+
+        &__btn {
+            margin-bottom: 50px;
+        }
+
+        &__picture {
+            padding-top: 123px;
+            img {
+                width: 270px;
+                height: 414px;
+            }
+        }
+    }
+
+    .features {
+        padding: 40px 0;
+
+        &__title {
+            font-size: 25px;
+            line-height: 35px;
+        }
+
+        &__text {
+            font-size: 14px;
+            line-height: 22px;
+        }
+        &__picture {
+            margin-bottom: 116px;
+        }
+    }
+
+    .video {
+        padding: 40px 0;
+
+        &__title {
+            font-size: 25px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .icons {
+        padding-bottom: 40px;
+        &__title {
+            font-size: 20px;
+        }
+
+        &__text {
+            margin-top: 20px;
+        }
+    }
+
+    .banner {
+        &__info {
+            padding: 40px 0;
+            padding-left: 30px;
+        }
+
+        &__title {
+            font-size: 25px;
+            line-height: 35px;
+        }
+
+        &__text {
+            line-height: 20px;
+            margin: 10px 0;
+        }
+    }
+
+    .testimonial {
+        padding: 40px 0;
+        &__title {
+            font-size: 25px;
+            line-height: 35px;
+            margin-bottom: 40px;
+        }
+
+        &__text {
+            margin-bottom: 20px;
+        }
+
+        &__info {
+            margin: 3px 0;
+        }
+    }
+
+    .clients {
+        padding-bottom: 65px;
+        &__icon {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        &__icon > img:nth-child(3),
+        &__icon > img:nth-child(5),
+        &__icon > img:nth-child(6),
+        &__icon > img:nth-child(7) {
+            order: -1;
+        }
+
+        &__icon > img:nth-child(2),
+        &__icon > img:nth-child(6),
+        &__icon > img:nth-child(7) {
+            order: 1;
+        }
+
+        &__icon hr {
+            width: 100%;
+            border: 0;
+            display: block;
+        }
+    }
+
+    .footer {
+        padding: 40px 0;
+
+        &__title {
+            font-size: 30px;
+            line-height: 40px;
+        }
+        &__form {
+            margin-top: 55px;
+            margin-bottom: 52px;
+
+            label {
+                margin-bottom: 10px;
+                font-size: 16px;
+                line-height: 16px;
+            }
+
+            input[name="name"],
+            input[name="email"],
+            textarea {
+                padding: 10px;
+                font-size: 16px;
+                line-height: 16px;
+                margin-bottom: 20px;
+            }
+            textarea {
+                height: 100px;
+                padding: 10px 16px 18px 15px;
+                font-size: 16px;
+                line-height: 25px;
+            }
+            label:last-child {
+                line-height: 20px;
+            }
+
+            &-btn {
+                padding: 12px 50px;
+                font-size: 12px;
+                line-height: 12px;
+            }
+        }
+        &__copyright {
+            justify-content: space-between;
+            display: -webkit-box;
+        }
+
+        img {
+            width: 40px;
+        }
+        img + p {
+            padding-left: 25px;
+            line-height: 25px;
+            font-size: 14px;
+        }
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .header {
+        &__info {
+            padding-top: 20px;
+        }
+
+        &__logo {
+            margin-bottom: 20px;
+        }
+
+        &__title {
+            font-size: 32px;
+            line-height: 40px;
+        }
+
+        &__text {
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 26px;
+        }
+
+        &__btn {
+            margin-bottom: 20px;
+        }
+
+        &__picture {
+            padding-top: 0;
+            text-align: center;
+            img {
+                width: 176px;
+                height: 269px;
+            }
+        }
+    }
+
+    .features {
+        padding: 40px 0;
+
+        &__title {
+            font-size: 25px;
+            line-height: 35px;
+        }
+
+        &__text {
+            font-size: 14px;
+            line-height: 22px;
+            margin: 10px 0;
+        }
+        &__picture {
+            margin-bottom: 0;
+            width: 300px;
+            height: 167px;
+            margin: auto;
+        }
+    }
+
+    .video {
+        padding: 40px 0;
+
+        &__title {
+            font-size: 25px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .icons {
+        &__items {
+            flex-direction: column;
+        }
+
+        &_items div {
+            margin: 18px 0;
+        }
+        padding-bottom: 40px;
+        &__title {
+            font-size: 20px;
+        }
+
+        &__text {
+            margin-top: 20px;
+            margin-bottom: 18px;
+        }
+    }
+
+    .banner {
+        &__info {
+            padding: 40px 0;
+            padding-left: 0px;
+        }
+
+        &__title {
+            font-size: 25px;
+            line-height: 35px;
+        }
+
+        &__text {
+            line-height: 20px;
+            margin: 10px 0;
+        }
+
+        &__picture {
+            height: 230px;
+        }
+    }
+
+    .testimonial {
+        padding: 40px 0;
+        &__title {
+            font-size: 25px;
+            line-height: 35px;
+            margin-bottom: 20px;
+        }
+
+        &__text {
+            margin-bottom: 20px;
+        }
+
+        &__info {
+            margin: 3px 0;
+        }
+    }
+
+    .slider {
+        padding: 0 30px;
+    }
+
+    .clients {
+        padding: 60px 0;
+        &__icon {
+            flex-direction: column;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        &__icon > img:nth-child(3),
+        &__icon > img:nth-child(5),
+        &__icon > img:nth-child(6),
+        &__icon > img:nth-child(7) {
+            order: -1;
+        }
+
+        &__icon > img:nth-child(2),
+        &__icon > img:nth-child(6),
+        &__icon > img:nth-child(7) {
+            order: 1;
+        }
+
+        &__icon hr {
+            width: 100%;
+            border: 0;
+            display: none;
+        }
+        &__icon img {
+            margin: 18px 0;
+        }
+    }
+
+    .footer {
+        padding: 40px 0;
+
+        &__title {
+            font-size: 25px;
+            line-height: 35px;
+        }
+        &__form {
+            margin-top: 32px;
+            margin-bottom: 40px;
+
+            label {
+                margin-bottom: 10px;
+                font-size: 16px;
+                line-height: 16px;
+            }
+
+            input[name="name"],
+            input[name="email"],
+            textarea {
+                padding: 10px;
+                font-size: 16px;
+                line-height: 16px;
+                margin-bottom: 20px;
+            }
+            textarea {
+                height: 123px;
+                padding: 10px 16px 16px 15px;
+                font-size: 16px;
+                line-height: 20px;
+            }
+            label:last-child {
+                line-height: 20px;
+            }
+
+            &-wrap {
+                flex-direction: column;
+            }
+            &-btn {
+                padding: 12px 50px;
+                font-size: 12px;
+                line-height: 12px;
+                margin-top: 25px;
+            }
+        }
+        &__copyright {
+            justify-content: space-between;
+            display: -webkit-box;
+        }
+
+        img {
+            display: none;
+        }
+        img + p {
+            padding-left: 25px;
+            line-height: 25px;
+            font-size: 14px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1199px) {
+    .parallax {
+        background-attachment: fixed;
+    }
+}
